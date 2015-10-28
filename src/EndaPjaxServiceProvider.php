@@ -8,7 +8,7 @@ namespace YuanChao\Pjax;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
-class EndaEditorServiceProvider extends ServiceProvider
+class EndaPjaxServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
