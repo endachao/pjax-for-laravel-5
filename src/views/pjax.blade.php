@@ -12,7 +12,6 @@
         });
         $(document).on('pjax:end', function() {
             NProgress.done();
-            self.siteBootUp();
         });
     });
 </script>
