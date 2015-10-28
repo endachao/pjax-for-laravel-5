@@ -18,10 +18,15 @@ class EndaPjaxServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+
         $this->loadViewsFrom(__DIR__ . '/views', 'pjax');
 
         $this->publishes([
-            __DIR__ . '/pjax' => base_path('public/plugin/pjax'),
+            __DIR__.'/views' => base_path('resources/views/vendor/pjax'),
+        ]);
+
+        $this->publishes([
+            __DIR__ . '/pjax' => base_path('public/plugins/pjax'),
         ]);
     }
 
