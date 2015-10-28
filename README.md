@@ -4,7 +4,7 @@
 
 # 效果
 
-![效果][2]
+<img src="http://www.phpyc.com/images/pjax.jpg"  align=center />
 
 
 # 安装
